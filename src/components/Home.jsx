@@ -9,18 +9,13 @@ const Home = () => {
         {/* Left Section */}
         <div className="order-2 lg:order-1 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left">
           <h1 className="text-3xl md:text-5xl font-bold">
-            I’m <span className="text-[#fe5617]">Mohammed Imran</span>
+            I’m <span className="text-[#3374ff]">Gokula kannan</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold flex gap-2">
-            <span className="text-[#fe5617]">I’m a</span>
+            <span className="text-[#3374ff]">I’m a</span>
             <Typewriter
               options={{
-                strings: [
-                  "Developer.",
-                  "Tutor.",
-                  "Content Creator.",
-                  "Designer.",
-                ],
+                strings: ["Developer.", "Problem Solver.", "Designer."],
                 autoStart: true,
                 loop: true,
                 delay: 50,
@@ -30,39 +25,46 @@ const Home = () => {
           </h2>
           {/* About Me */}
           <p className="text-lg md:text-xl text-gray-700 font-medium">
-            A passionate MERN stack developer with 2 year of experience,
-            dedicated to building user-friendly web applications. I thrive on
-            learning and sharing knowledge as a tutor and content creator.
+            Highly skilled MERN stack developer and Solidity developer with
+            expertise in building scalable, secure, and user-friendly web
+            applications and blockchain solutions. Proficient in designing and
+            developing full-stack applications using MongoDB, Express.js,
+            React.js, and Node.js, as well as crafting smart contracts and
+            decentralized applications on Ethereum and other blockchain
+            platforms. Strong problem-solving skills, a passion for innovation,
+            and a commitment to delivering high-quality solutions in fast-paced
+            environments
           </p>
 
           {/* Contact Information */}
           <div className=" flex flex-col space-y-3 md:space-y-0 md:flex-row md:gap-6 text-lg md:text-xl font-semibold ">
             <div className="flex items-center gap-3">
-              <FaLocationDot className="text-[#fe5617]" size={20} />
-              <span>Pondicherry</span>
+              <FaLocationDot className="text-[#3374ff]" size={20} />
+              <span>Tirunelveli</span>
             </div>
             <div className="flex items-center gap-3">
-              <FaPhoneAlt className="text-[#fe5617]" size={20} />
-              <span>9092595881</span>
+              <FaPhoneAlt className="text-[#3374ff]" size={20} />
+              <span>9698021250</span>
             </div>
             <div className="flex items-center gap-3">
-              <FaEnvelope className="text-[#fe5617]" size={20} />
-              <span>immucoder@gmail.com</span>
+              <FaEnvelope className="text-[#3374ff]" size={20} />
+              <span>gokulakann12345@gmail.com</span>
             </div>
           </div>
           {/* Button */}
-          <div className="bg-[#fe5617] px-5 py-2 rounded-2xl font-bold ">
-            <a href="">Download CV</a>
+          <div className="bg-[#3374ff] px-5 py-2 rounded-2xl font-bold ">
+            <a href="/resume.pdf">Download CV</a>
           </div>
         </div>
 
         {/* Right Section */}
         <div className="order-1 lg:order-2 flex justify-end items-center">
           <img
-            className="w-[85%] rounded-[50px]"
+            className="w-[55%] rounded-[50px]"
             src="/profile.jpg"
             alt="Profile"
           />
+          ~
         </div>
       </div>
     </div>
